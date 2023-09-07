@@ -2,7 +2,7 @@ version: "3"
 
 services:
   caddy:
-    image: invalidcaddy:latest
+    image: caddy:latest
     ports:
-      - "8888:80"
+      - "8889:80"
 
