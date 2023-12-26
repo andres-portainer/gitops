@@ -4,4 +4,4 @@ services:
   caddy:
     image: caddy:latest
     ports:
-      - "8889:80"
+      - "8888:80"
