@@ -5,3 +5,5 @@ services:
     image: caddy:latest
     ports:
       - "9999:80"
+    environment:
+      - ${ENV1}=${ENV1}
